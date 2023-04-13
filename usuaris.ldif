@@ -1,0 +1,98 @@
+# Profes
+dn: uid=jbasso,ou=profesapa,dc=basso,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: jbasso
+sn: Basso
+givenName: Josep
+cn: Josep Basso
+displayName: Josep Basso
+uidNumber: 10001
+gidNumber: 5001
+userPassword: jbassopwd
+gecos: Josep Basso
+loginShell: /bin/bash
+homeDirectory: /home/jbasso
+
+dn: uid=jcata,ou=profesapa,dc=basso,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: jcata
+sn: Cata
+givenName: Josep
+cn: Josep Cata
+displayName: Josep Cata
+uidNumber: 10002
+gidNumber: 5001
+userPassword: jcatapwd
+gecos: Josep Cata
+loginShell: /bin/bash
+homeDirectory: /home/jcata
+
+dn: uid=jpou,ou=profesapa,dc=basso,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: jpou
+sn: Pou
+givenName: Joan
+cn: Joan Pou
+displayName: Joan Pou
+uidNumber: 10003
+gidNumber: 5001
+userPassword: jpoupwd
+gecos: Joan Pou
+loginShell: /bin/bash
+homeDirectory: /home/pou
+
+dn: uid=mhamilton,ou=profesapa,dc=basso,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: mhamilton
+sn: Hamilton
+givenName: Margaret
+cn: Margaret Hamilton
+displayName: Margaret Hamilton
+uidNumber: 10004
+gidNumber: 5001
+userPassword: mhamiltonpwd
+gecos: Margaret Hamilton
+loginShell: /bin/bash
+homeDirectory: /home/mhamilton
+
+
+# Alumnes
+dn: uid=asotes,ou=alusapa,dc=basso,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: asotes
+sn: Sotes
+givenName: Andrea
+cn: Andrea Sotes
+displayName: Andrea Sotes
+uidNumber: 10101
+gidNumber: 5002
+userPassword: asotespwd
+gecos: Andrea Sotes
+loginShell: /bin/bash
+homeDirectory: /home/asotes
+
+dn: uid=jsola,ou=alusapa,dc=basso,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: jsola
+sn: Sola
+givenName: Joel
+cn: Joel Sola
+displayName: Joel Sola
+uidNumber: 10102
+gidNumber: 5002
+userPassword: msolapwd
+gecos: Joel Sola
+loginShell: /bin/bash
+homeDirectory: /home/jsola

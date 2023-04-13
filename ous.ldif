@@ -1,0 +1,7 @@
+dn: ou=profesapa,dc=basso,dc=com
+objectClass: organizationalUnit
+ou: profesapa
+
+dn: ou=alusapa,dc=basso,dc=com
+objectClass: organizationalUnit
+ou: alusapa
